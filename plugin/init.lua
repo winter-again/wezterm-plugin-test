@@ -1,7 +1,7 @@
 local M = {}
 
-M.setup = function(config)
-    config.font_size = 24
+M.setup = function(config, size)
+    config.font_size = size
 end
 
 return M
